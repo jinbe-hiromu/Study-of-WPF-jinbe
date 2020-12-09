@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "4D6EdsfzZsVqbd8N8s+hErQWsTpyPJJcQurVZfGiAvCOGidk1vmQyqJgjyM5CHgqchupVSwbXhs81MLcnarOmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dwu901254\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dwu901254\\.nuget\\packages\\reactiveproperty\\7.5.1\\reactiveproperty.7.5.1.nupkg.sha512",
+    "C:\\Users\\dwu901254\\.nuget\\packages\\reactiveproperty.core\\7.5.1\\reactiveproperty.core.7.5.1.nupkg.sha512",
+    "C:\\Users\\dwu901254\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\dwu901254\\.nuget\\packages\\system.reactive\\4.4.1\\system.reactive.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
