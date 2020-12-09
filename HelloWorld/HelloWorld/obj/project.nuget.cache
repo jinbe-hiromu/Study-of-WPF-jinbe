@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4D6EdsfzZsVqbd8N8s+hErQWsTpyPJJcQurVZfGiAvCOGidk1vmQyqJgjyM5CHgqchupVSwbXhs81MLcnarOmQ==",
+  "dgSpecHash": "fnzleD4ZzMXfSJf4imObX2X7RmOYShm6B8iU6j3ROhOGxsBUzXLluFdWCgZpXk+t7UQrlr1E0Gas88IPKEphig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dwu901254\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "D:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dwu901254\\.nuget\\packages\\reactiveproperty\\7.5.1\\reactiveproperty.7.5.1.nupkg.sha512",
     "C:\\Users\\dwu901254\\.nuget\\packages\\reactiveproperty.core\\7.5.1\\reactiveproperty.core.7.5.1.nupkg.sha512",

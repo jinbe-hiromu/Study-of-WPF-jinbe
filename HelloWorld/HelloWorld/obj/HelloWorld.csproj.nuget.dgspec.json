@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dwu901254\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+    "D:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dwu901254\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+    "D:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dwu901254\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "D:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\dwu901254\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "D:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\dwu901254\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dwu901254\\source\\repos\\HelloWorld\\HelloWorld\\obj\\",
+        "outputPath": "D:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
