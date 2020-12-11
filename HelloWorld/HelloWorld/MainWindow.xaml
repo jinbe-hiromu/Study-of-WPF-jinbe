@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Window.DataContext>
         <vm:MainWindowViewModel />
+        
     </Window.DataContext>
     <Grid>
         <Button Command="{Binding PushButtonCommand}"  Content="これを押すと下の数字が1増える" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="170"/>
