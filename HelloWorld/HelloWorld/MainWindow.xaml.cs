@@ -27,9 +27,5 @@ namespace HelloWorld
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            DataContext = viewModel.TextRead(DataContext);
-        }
     }
 }
