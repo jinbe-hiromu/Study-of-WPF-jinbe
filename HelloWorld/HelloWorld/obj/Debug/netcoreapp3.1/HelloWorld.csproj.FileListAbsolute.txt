@@ -46,3 +46,8 @@ D:\GitHub\WPF\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyI
 D:\GitHub\WPF\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csproj.CoreCompileInputs.cache
 D:\GitHub\WPF\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csproj.CopyComplete
 D:\GitHub\WPF\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.genruntimeconfig.cache
+C:\GitHub\WPF\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csprojAssemblyReference.cache
+C:\GitHub\WPF\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\App.g.cs
+C:\GitHub\WPF\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld_MarkupCompile.cache
+C:\GitHub\WPF\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.dll
+C:\GitHub\WPF\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.pdb

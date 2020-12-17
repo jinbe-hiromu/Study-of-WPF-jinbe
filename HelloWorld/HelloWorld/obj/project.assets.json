@@ -197,23 +197,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dwu901254\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\10087901254\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "D:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
-      "packagesPath": "C:\\Users\\dwu901254\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\obj\\",
+      "projectPath": "C:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "packagesPath": "C:\\Users\\10087901254\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\dwu901254\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\10087901254\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
