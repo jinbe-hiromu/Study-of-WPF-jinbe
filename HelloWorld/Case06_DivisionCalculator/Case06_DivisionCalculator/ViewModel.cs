@@ -28,27 +28,19 @@ namespace Case06_DivisionCalculator
         public int DividedNum
         {
             get { return _dividedNum; }
-            set
-            {
-                _dividedNum = value;
-                RaisePropertyChanged(nameof(DividedNum));
-            }
+            set { _dividedNum = value; }
         }
 
         public int DivisionNum
         {
             get { return _divisionNum; }
-            set
-            {
-                _divisionNum = value;
-                RaisePropertyChanged(nameof(DivisionNum));
-            }
+            set { _divisionNum = value; }
         }
 
         public int Result
         {
             get { return _result; }
-            set
+            set 
             {
                 _result = value;
                 RaisePropertyChanged(nameof(Result));
