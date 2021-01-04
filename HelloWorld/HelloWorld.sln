@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case03_PrintHelloWorld", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case04_ConvertUpperString", "Case04_ConvertUpperString\Case04_ConvertUpperString.csproj", "{3C445747-697C-4E51-9FFB-63B127FDBABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Case05_DebugClearText", "Case05_DebugClearText\Case05_DebugClearText.csproj", "{833701F7-0860-4F83-B2AE-7B872DC3C2DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case05_DebugClearText", "Case05_DebugClearText\Case05_DebugClearText.csproj", "{833701F7-0860-4F83-B2AE-7B872DC3C2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Case06_DivisionCalculator", "Case06_DivisionCalculator\Case06_DivisionCalculator\Case06_DivisionCalculator.csproj", "{C23D97F5-E254-4B30-B056-CD93FCE15AE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{833701F7-0860-4F83-B2AE-7B872DC3C2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{833701F7-0860-4F83-B2AE-7B872DC3C2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{833701F7-0860-4F83-B2AE-7B872DC3C2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23D97F5-E254-4B30-B056-CD93FCE15AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23D97F5-E254-4B30-B056-CD93FCE15AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23D97F5-E254-4B30-B056-CD93FCE15AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23D97F5-E254-4B30-B056-CD93FCE15AE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
