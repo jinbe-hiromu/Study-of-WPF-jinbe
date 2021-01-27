@@ -25,5 +25,11 @@ namespace Case07.ViewModel
         {
             _execute?.Invoke(parameter);
         }
+
+        // これいる？？
+        public void RaiseCanExecuteChanged()
+        {
+            CanExecuteChanged?.Invoke(this,null);
+        }
     }
 }

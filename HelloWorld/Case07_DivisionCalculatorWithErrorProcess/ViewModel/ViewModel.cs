@@ -7,10 +7,8 @@ using System.Windows.Input;
 
 namespace Case07.ViewModel
 {
-    class ViewModel : INotifyPropertyChanged
+    public class ViewModel : BasePropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public UserNotificationObject UserNotificationObject { get; } = new UserNotificationObject();
 
         public decimal DividedNum { get; set; }
@@ -22,16 +20,7 @@ namespace Case07.ViewModel
         public decimal Result
         {
             get { return _result; }
-            set
-            {
-                _result = value;
-                RaisePropertyChanged(nameof(Result));
-            }
-        }
-
-        private void RaisePropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            set { SetValue(value, ref _result, nameof(Result)); }
         }
 
         private DelegateCommand _calcCommand;
@@ -48,7 +37,7 @@ namespace Case07.ViewModel
         {
             try
             {
-                Result = new Divider(DividedNum, DivisionNum).Execute();
+                Result = new Divider(DivisionNum, DividedNum).Execute();
             }
             catch(Exception e)
             {

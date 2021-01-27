@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Case07"
         xmlns:v="clr-namespace:Case07.View"
         xmlns:vm ="clr-namespace:Case07.ViewModel"
-        xmlns:i="http://schemas.microsoft.com/xaml/behaviors" 
+        xmlns:bh="http://schemas.microsoft.com/xaml/behaviors" 
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.DataContext>
@@ -14,11 +14,12 @@
     </Window.DataContext>
 
     <!-- ********** -->
-    <i:Interaction.Triggers>
-        <vm:UserNotificationObjectTrigger SourceObject="{Binding UserNotificationObject}">
+    <bh:Interaction.Triggers>
+        <!--UserNotificationObjectTriggerはMicrosoft.Xaml.Behaviors.EventTriggerを継承-->
+        <vm:UserNotificationObjectTrigger SourceObject="{Binding UserNotificationObject}">  
             <v:UserNotificationObjectAction />
         </vm:UserNotificationObjectTrigger>
-    </i:Interaction.Triggers>
+    </bh:Interaction.Triggers>
     <!-- ********** -->
 
     <!--<Grid Margin="2">
