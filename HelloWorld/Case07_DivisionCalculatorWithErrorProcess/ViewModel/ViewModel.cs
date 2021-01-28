@@ -20,7 +20,7 @@ namespace Case07.ViewModel
         public decimal Result
         {
             get { return _result; }
-            set { SetValue(value, ref _result, nameof(Result)); }
+            set { SetValue(value, ref _result); }
         }
 
         private DelegateCommand _calcCommand;

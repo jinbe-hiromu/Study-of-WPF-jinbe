@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace Case07.ViewModel
@@ -9,7 +10,7 @@ namespace Case07.ViewModel
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void SetValue<T>(T src,ref T dst,string name)
+        protected void SetValue<T>(T src,ref T dst,[CallerMemberName] string name=null)
         {
             if (!src.Equals(dst))       // 同一の値でない場合イベント発行
             {
