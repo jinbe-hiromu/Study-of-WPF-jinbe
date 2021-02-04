@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{C8074FBC-7C1B-4E66-82FD-F96B15FA1AD5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case03_PrintHelloWorld", "Hello World!\Case03_PrintHelloWorld.csproj", "{E19E7F54-C799-4893-89D3-A48E03074BEB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case04_ConvertUpperString", "Case04_ConvertUpperString\Case04_ConvertUpperString.csproj", "{3C445747-697C-4E51-9FFB-63B127FDBABA}"
@@ -15,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case06_DivisionCalculator",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case07_DivisionCalculatorWithErrorProcess", "Case07_DivisionCalculatorWithErrorProcess\Case07_DivisionCalculatorWithErrorProcess.csproj", "{25228D2E-1908-4D30-91B3-D2395292A14A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Case08_DivisionCalculatorWithDesign", "Case08_DivisionCalculatorWithDesign\Case08_DivisionCalculatorWithDesign.csproj", "{B9676064-E1C2-4B65-8FA3-9922132EEBE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case08_DivisionCalculatorWithDesign", "Case08_DivisionCalculatorWithDesign\Case08_DivisionCalculatorWithDesign.csproj", "{B9676064-E1C2-4B65-8FA3-9922132EEBE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C8074FBC-7C1B-4E66-82FD-F96B15FA1AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8074FBC-7C1B-4E66-82FD-F96B15FA1AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8074FBC-7C1B-4E66-82FD-F96B15FA1AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8074FBC-7C1B-4E66-82FD-F96B15FA1AD5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E19E7F54-C799-4893-89D3-A48E03074BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E19E7F54-C799-4893-89D3-A48E03074BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E19E7F54-C799-4893-89D3-A48E03074BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU

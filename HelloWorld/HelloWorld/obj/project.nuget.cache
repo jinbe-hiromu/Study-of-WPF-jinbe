@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "P5P0Sgmbe+ZqPpnyEEPEvkqQmGOJcnyYU0+IqxWTBi3FZr+xslddb3XkBHXG09ldnhOeix8mezCsrrfU8Bb8SQ==",
+  "dgSpecHash": "GIZSZfVFNtF9NRF9slcTiNggPDxF5psRqwo18A4ct1qV1D7MmLeN9O5d7nbZuv+S/48aDa1fTWwnLZDEigbUMA==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\WPF\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "D:\\GitHub\\WPF-Study_jinbe\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\10087901254\\.nuget\\packages\\reactiveproperty\\7.5.1\\reactiveproperty.7.5.1.nupkg.sha512",
-    "C:\\Users\\10087901254\\.nuget\\packages\\reactiveproperty.core\\7.5.1\\reactiveproperty.core.7.5.1.nupkg.sha512",
-    "C:\\Users\\10087901254\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\10087901254\\.nuget\\packages\\system.reactive\\4.4.1\\system.reactive.4.4.1.nupkg.sha512"
+    "C:\\Users\\dwu901254\\.nuget\\packages\\reactiveproperty\\7.5.1\\reactiveproperty.7.5.1.nupkg.sha512",
+    "C:\\Users\\dwu901254\\.nuget\\packages\\reactiveproperty.core\\7.5.1\\reactiveproperty.core.7.5.1.nupkg.sha512",
+    "C:\\Users\\dwu901254\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\dwu901254\\.nuget\\packages\\system.reactive\\4.4.1\\system.reactive.4.4.1.nupkg.sha512"
   ],
   "logs": []
 }
