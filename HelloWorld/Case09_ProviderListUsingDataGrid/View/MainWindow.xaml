@@ -1,0 +1,33 @@
+﻿<Window x:Class="Case09_ProviderListUsingDataGrid.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Case09_ProviderListUsingDataGrid"
+        xmlns:v="clr-namespace:Case09_ProviderListUsingDataGrid.View"
+        xmlns:vm="clr-namespace:Case09_ProviderListUsingDataGrid.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <vm:MainWindowViewModel />
+    </Window.DataContext>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0">
+            <MenuItem Header="追加(_A)" Command="{Binding AddCommand}"/>
+            <MenuItem Header="削除(_D)" Command="{Binding DeleteCommand}"/>
+        </Menu>
+
+        <DataGrid Name="dataGrid" Grid.Row="1" ItemsSource="{Binding GridData}">
+            <!--<DataGridTextColumn Header="プロバイダ名" Binding="{Binding ProviderName}"/>
+            <DataGridTextColumn Header="エディション" Binding="{Binding Edition}"/>
+            <DataGridTextColumn Header="リリース年" Binding="{Binding ReleaseYear}"/>-->
+        </DataGrid>
+        
+    </Grid>
+</Window>
