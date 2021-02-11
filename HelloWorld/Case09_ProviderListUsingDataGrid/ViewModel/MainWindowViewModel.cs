@@ -16,6 +16,8 @@ namespace Case09_ProviderListUsingDataGrid.ViewModel
                                                                             };
 
 
+        public ProviderDataModel SelectedItem { get; set; } = new ProviderDataModel();
+
         private DelegateCommand _addCommand;
         private DelegateCommand _deleteCommand;
 
@@ -42,8 +44,8 @@ namespace Case09_ProviderListUsingDataGrid.ViewModel
 
         private void DeleteRow(object obj)
         {
-            // 選択したものを消す方法がわからない．
-            GridData.RemoveAt(GridData.Count-1);
+            // 選択しているアイテムを削除
+            GridData.Remove(SelectedItem);
         }
     }
 }

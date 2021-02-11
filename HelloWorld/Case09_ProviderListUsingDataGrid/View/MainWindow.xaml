@@ -14,8 +14,8 @@
     
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition />
+            <RowDefinition Height="Auto" /> <!--Auto:設置したコントロールの高さで動的に変動-->
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <Menu Grid.Row="0">
@@ -23,7 +23,8 @@
             <MenuItem Header="削除(_D)" Command="{Binding DeleteCommand}"/>
         </Menu>
 
-        <DataGrid Name="dataGrid" Grid.Row="1" ItemsSource="{Binding GridData}">
+        <DataGrid Name="dataGrid" Grid.Row="1" ItemsSource="{Binding GridData}" SelectedItem ="{Binding SelectedItem}" >
+                <!--↓GridDataの方でバインディングされており，重複するためエラーが起きる-->
             <!--<DataGridTextColumn Header="プロバイダ名" Binding="{Binding ProviderName}"/>
             <DataGridTextColumn Header="エディション" Binding="{Binding Edition}"/>
             <DataGridTextColumn Header="リリース年" Binding="{Binding ReleaseYear}"/>-->
