@@ -5,14 +5,44 @@ using System.Windows.Input;
 
 namespace Case09_ProviderListUsingDataGrid.ViewModel
 {
+    public class DelegateCommand<T> : ICommand
+    {
+        public event EventHandler CanExecuteChanged;
+
+        private readonly Action<T> _execute;
+        private readonly Func<object, bool> _canExecute;
+
+        public DelegateCommand(Action<T> execute, Func<object, bool> canExecute)
+        {
+            _execute = execute;
+            _canExecute = canExecute;
+        }
+
+        public bool CanExecute(object parameter)
+        {
+            return _canExecute?.Invoke((T)parameter) ?? true;
+        }
+
+        public void Execute(object parameter)
+        {
+            _execute?.Invoke((T)parameter);
+        }
+
+        // これいる？？
+        public void RaiseCanExecuteChanged()
+        {
+            CanExecuteChanged?.Invoke(this, null);
+        }
+    }
+
     public class DelegateCommand : ICommand
     {
         public event EventHandler CanExecuteChanged;
 
-        private readonly Action<object> _execute;
+        private readonly Action _execute;
         private readonly Func<object, bool> _canExecute;
 
-        public DelegateCommand(Action<object> execute, Func<object, bool> canExecute)
+        public DelegateCommand(Action execute, Func<object, bool> canExecute)
         {
             _execute = execute;
             _canExecute = canExecute;
@@ -25,7 +55,7 @@ namespace Case09_ProviderListUsingDataGrid.ViewModel
 
         public void Execute(object parameter)
         {
-            _execute?.Invoke(parameter);
+            _execute?.Invoke();
         }
 
         // これいる？？

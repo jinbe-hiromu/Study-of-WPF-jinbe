@@ -3,8 +3,8 @@
     public enum EditionType
     {
         ORiN2SDK,
-        forIoT,
-        forDENSO
+        ForIoT,
+        ForDenso
     }
 
     public class ProviderDataModel : BasePropertyChanged
